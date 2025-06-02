@@ -1,3 +1,4 @@
+/* === Reset i bazowe ustawienia === */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -61,6 +62,7 @@ body {
     max-width: 320px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
+    position: relative;
 }
 
 .policy-card:hover {
@@ -107,6 +109,25 @@ body {
     color: #666;
     cursor: not-allowed;
     pointer-events: none;
+}
+
+/* === Sekcja nowości === */
+.new-card {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: crimson;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 /* === Stopka === */
