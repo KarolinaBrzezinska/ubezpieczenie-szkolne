@@ -144,6 +144,35 @@ body {
     color: #333;
 }
 
+/* === Pasek kontaktowy na dole === */
+.sticky-contact {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #f7e8b7, #fceabb);
+    color: #333;
+    text-align: center;
+    padding: 14px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    z-index: 1000;
+    border-top: 1px solid #ddd;
+}
+
+.sticky-contact a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 8px;
+}
+
+.sticky-contact a:hover {
+    text-decoration: underline;
+}
+
 /* === Responsywność === */
 @media (max-width: 768px) {
     .policy-options {
